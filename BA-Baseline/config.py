@@ -1,0 +1,38 @@
+SEQUENZE_LENGTH = 3  # in Tagen
+PREDICTION_LENGTH = 1 # in Tagen
+
+columns_P = [
+       'P_TOT', 
+       #'PF_TOT', 
+       'index', 
+       'area', 
+       'inhabitants', 
+       'building',
+       'WEATHER_ATMOSPHERIC_PRESSURE_TOTAL',
+       'WEATHER_PRECIPITATION_RATE_TOTAL',
+       'WEATHER_PROBABILITY_OF_PRECIPITATION_TOTAL',
+       'WEATHER_RELATIVE_HUMIDITY_TOTAL', 
+       'WEATHER_SOLAR_IRRADIANCE_GLOBAL',
+       'WEATHER_TEMPERATURE_TOTAL', 
+       'WEATHER_WIND_DIRECTION_TOTAL',
+       'WEATHER_WIND_SPEED_TOTAL'
+       ]
+
+columns_PF = [
+       #'P_TOT', 
+       'PF_TOT', 
+       'index', 
+       'area', 
+       'inhabitants', 
+       'building',
+       'WEATHER_ATMOSPHERIC_PRESSURE_TOTAL',
+       'WEATHER_PRECIPITATION_RATE_TOTAL',
+       'WEATHER_PROBABILITY_OF_PRECIPITATION_TOTAL',
+       'WEATHER_RELATIVE_HUMIDITY_TOTAL', 
+       'WEATHER_SOLAR_IRRADIANCE_GLOBAL',
+       'WEATHER_TEMPERATURE_TOTAL', 
+       'WEATHER_WIND_DIRECTION_TOTAL',
+       'WEATHER_WIND_SPEED_TOTAL'
+       ]
+
+TRAIN_VAL_SPLIT = 0.5

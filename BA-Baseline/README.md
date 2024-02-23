@@ -22,19 +22,19 @@ Install python packages
 To run the project and obtain predictions, follow these chronological steps by executing the provided Jupyter Notebooks:
 
 1. **Data Exploration:**
-   - Start with `01_data_exploration.ipynb` to explore and understand the dataset. This notebook provides initial insights into the data, including distribution, outliers, and potential correlations.
+   - Start with `01_data_exploration.ipynb` to explore and understand the dataset. This notebook provides initial insights into the data.
 
 2. **Data Preparation:**
-   - Proceed with `02_data_preparation.ipynb` to prepare the data for modeling. This involves cleaning, normalization, feature selection, and potentially feature engineering to structure the data suitably for the prediction model.
+   - Proceed with `02_data_preparation.ipynb` to prepare the data for modeling. This involves cleaning, normalization, feature selection, to structure the data suitably for the prediction model.
 
 3. **Hyperparameter Optimization:**
-   - Use `03_hyperparameter_optimization.ipynb` to find the optimal set of hyperparameters for the model. This notebook employs techniques such as grid search or random search to explore various hyperparameter combinations.
+   - Use `03_hyperparameter_optimization.ipynb` to find the optimal set of hyperparameters for the model. This notebook employs random search to explore various hyperparameter combinations.
 
 4. **Modeling:**
    - In `04_modeling.ipynb`, the actual model is built, trained, and validated using the prepared dataset and the optimized hyperparameters identified in the previous step.
 
 5. **Evaluation:**
-   - After training the model, `05_evaluation.ipynb` is used to evaluate its performance. This notebook provides metrics such as accuracy, precision, recall, and others relevant to the model's performance, along with visualizations like ROC curves or confusion matrices.
+   - After training the model, `05_evaluation.ipynb` is used to evaluate its performance. This notebook provides metrics such as MAE, RMSE and nRMSE relevant to the model's performance, along with visualizations.
 
 6. **Model Aggregated Load:**
    - Additionaly, `06_Model_aggregated_load.ipynb` evaluates the performance of a simple GRU model on an aggregated load model.
